@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxence Randremadaoro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   
+
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Max.R</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Accueil</a></li>
+                <li><a href="#about" class="menu-btn">Profil</a></li>
+                <li><a href="#skills" class="menu-btn">Compétences</a></li>
+                <li><a href="#design" class="menu-btn">Créations</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+     <!-- Page d'accueil -->
+     <section class="home" id="home">
+        <div class="max-width">
+            <div class="row">
+              <div class="home-content">
+                <div class="icones">
+                    <a href="https://fr.linkedin.com/in/maxence-randremadaoro-a240b7204"><img class="Linkedin" src="images/linkedin.svg"></a>
+                    <a href="mailto:maxence.randremadaoro@etu.unilim.fr"><img class="Mail" src="images/Mail.svg"></a>
+                </div>
+                  <p class="presentation">Étudiant en deuxième année DUT MMI Limoges<p>
+              </div> 
+            </div>  
+                  <div class="Maxence"><h1>Maxence</h1></div>
+                  <div class="Randremadaoro"><h1>Randremadaoro</h1></div>
+           <!-- <div class="gradient"><a href="#about">Découvrir mon Portfolio</a></div> -->
+        </div>
+      </section>
+
+    <!-- Mon Profil -->
+    <section class="about" id="about">
+        <div class="max-width">          
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/Détourévague.png" alt="">
+                </div>
+                <div class="column right">
+                    <h2 class="title">Mon <span>Profil</span></h2>
+                    <div class="text">Je suis Maxence Randremadaoro, <span>en DUT MMI</span></div>
+                    <p>Actuellement en deuxième année d'un DUT MMI à l'Université de Limoges. Passionné par le web, les créations graphiques mais surtout par les innovations technologiques. Je suis une formation qui me permet d'élargir mon champ de compétences et de maîtriser des notions telles que le graphisme, la communication, le développement web ou encore la gestion de projet.</p>
+                    <a href="Fichiers/Mon CV.pdf">Télécharger mon CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mes Compétences -->
+<section class="skills" id="skills">
+    <div class="max-width">
+      <div class="title">Mes <span>compétences</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <p>La formation MMI m'a permis de développer mes compétences dans le domaine du numérique. Je suis capable de comprendre et de réaliser différents codes HTML/CSS/JS pour ce qui est du développement web. La maîtrise d'outils de créations graphiques tels que Photoshop et Illustrator me permet de développer ma créativité sans limites et de produire des créations personnelles. Enfin, je suis en mesure de réaliser différents montages vidéos grâce notamment au logiciel Premiere Pro.</p>
+          <div class="experience">
+            <img src="images/photoshop (1).svg" alt="">
+            <img src="images/adobe-illustrator.svg" alt="">
+            <img src="images/indesign.svg" alt="">
+            <img src="images/premier.svg" alt="">
+            <img src="images/figma_logo_icon_170157.svg" alt="">
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">Développement Web</div>
+            <img src="images/Code.png" alt="">
+          </div>
+          <div class="box">
+            <div class="topic">Graphisme</div>
+            <img src="images/Paints.png" alt="">
+          </div>
+          <div class="box">
+            <div class="topic">Communication</div>
+            <img src="images/Message.png" alt="">
+          </div>
+          <div class="box">
+            <div class="topic">Montage</div>
+            <img class="changecolor" src="images/Video.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <!-- Mes Créations-->
+    <section class="portfolio" id="design">
+        <div class="container">
+
+            <div class="rows">
+                <div class="section-title text-center">
+                    <h1>Mes <span>Créations</span></h1>
+                </div>
+            </div>
+
+            <div class="rows">
+                <div class="filters-buttons">
+                    <ul id="filter-btns">
+                        <li class="active" data-target="all">Tous mes projets</li>
+                        <li data-target="dev">Développement web</li>
+                        <li data-target="design">Design</li>
+                        <li data-target="com">Communication</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="rows">
+                <div class="portfolio-gallery">
+                    
+                    <div class="item" data-id="design">
+                        <img src="/images/Lego-1.png"/>
+                        <div class="fullcap">
+                            <h3>Affiche Lego</h3>
+                            <p>Création d'une affiche sur le logiciel FIGMA mettant en avant l'univers Lego tout en respectant le style du futurisme</p>
+                            <a href="/images/Lego-1.png">Voir le projet</a>
+                        </div>
+                      </div>
+
+                    <div class="item" data-id="design">
+                        <div class="inner">
+                            <img src="/images/PNL X MARIO.png" alt="Illustration">
+                            <div class="fullcap">
+                                <h3>MARIO X PNL</h3>
+                                <p>Détournement de la pochette de l'album de PNL en utilisant Mario et Luigi réalisé sur Illustrator</p>
+                                <a href="/images/PNL X MARIO.png">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item" data-id="design">
+                        <div class="inner">
+                            <img src="/images/Logospacetest.png" alt="Illustration">
+                            <div class="fullcap">
+                                <h3>Icône spatial</h3>
+                                <p>Sur Illustrator, réalisation d'un logo pour agence spatial sous forme vectorielle</p>
+                                <a href="/images/Logospacetest.png">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item" data-id="design">
+                        <div class="inner">
+                            <img src="/images/Continuum-contour.png" alt="Illustration">
+                            <div class="fullcap">
+                                <h3>Musée Continuum</h3>
+                                <p>Mise en place de l'identité visuelle d'un musée imaginaire sur le thème de l'infini. Création d'un logo et d'une série d'affiches</p>
+                                <a href="/images/Continuum-identité.png">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item" data-id="design">
+                        <div class="inner">
+                            <img src="/images/Illustrator album.png" alt="Illustration">
+                            <div class="fullcap">
+                                <h3>Album S Pri Noir</h3>
+                                <p>Remake d'une pochette d'album à l'aide du logiciel Illustrator. Objectif : Simplifier au maximum la cover de l'album</p>
+                                <a href="/images/Illustrator album.png">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item" data-id="dev">
+                        <div class="inner">
+                            <img src="/images/Capture.PNG" alt="Illustration">
+                            <div class="fullcap">
+                                <h3>Site Prain</h3>
+                                <p>Création d'un site web officiel pour le groupe de musique Limougeaud Prain + espace administrateur</p>
+                                <a href="https://prain.fr/">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item" data-id="com">
+                        <div class="inner">
+                            <img src="/images/Dataviz.svg" alt="Illustration">
+                            <div class="fullcap">
+                                <h3>Datavisualisation</h3>
+                                <p>Mise en place d'une Datavisualisation sur le thème de la "Route des vacances" afin de simplifier la compréhension des données</p>
+                                <a href="/Fichiers/Dataviz-Maxence_Randremadaoro.pdf">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item" data-id="dev">
+                        <div class="inner">
+                            <img src="/images/Capture2.PNG" alt="Illustration">
+                            <div class="fullcap">
+                                <h3>Rick & Morty</h3>
+                                <p>Création d'un site web expérimental permettant de plonger dans l'univers de Rick et Morty</p>
+                                <a href="https://alexsounalet.com/MM-MR-HF-AS_Ptut/versions/final/">Voir le projet</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+      <!-- Me Contacter -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <div class="title">Me <span>contacter</span></div>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Restons en contact</div>
+                    <p>Envie de prendre contact ? Ecrivez moi en remplissant les éléments de la section ci-dessous, je tâcherai de vous répondre au plus vite !</p>
+                    <div class="icons">
+                        <div class="row">
+                                <i class="fas fa-user"></i>
+                                <div class="infos">
+                                    <h3 class ="first">Maxence</h3>
+                                    <p class="second">Randremadaoro</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="infos">
+                                    <h3 class ="first">Localisation</h3>
+                                    <p class="second">Couzeix</p>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="infos">
+                                <h3 class ="first">Mail</h3>
+                                <p class="name">maxence.randremadaoro@etu.unilim.fr</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Envoyez moi un message</div>
+                    <form class="contact-form" method="POST" action="mailto:maxence.randremadaoro@etu.unilim.fr" >
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" class="fullname" placeholder="Nom">
+                            </div>
+                            <div class="field email">
+                                <input type="text" class="email-input" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" class="subject" placeholder="Objet">
+                        </div>
+                        <div class="field textarea">
+                            <textarea class="message" cols="30" rows="10" placeholder="Message ..."></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button class="send-msg" type="submit" name="send" value="Send email">Envoyez</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2021 <span>Maxence Randremadaoro</span> | Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
